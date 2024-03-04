@@ -7,24 +7,24 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@reduxjs/toolkit": "^2.2.1",
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.2.1",
-    "@testing-library/user-event": "^14.5.2",
+    "@babel/preset-env": "^7.24.0",
+    "@mdi/font": "^7.4.47",
+    "@mdi/js": "^7.4.47",
+    "@vue/babel-plugin-jsx": "^1.2.1",
+    "@vue/babel-preset-jsx": "^1.4.0",
     "axios": "^1.6.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^5.0.1",
-    "react-redux": "^9.1.0",
-    "react-router-dom": "^6.22.2",
-    "react-scripts": "^5.0.1",
-    "react-toastify": "^10.0.4"
+    "core-js": "^3.36.0",
+    "crypto-js": "^4.2.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vuetify": "^3.5.7",
+    "vuex": "^4.1.0",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "eslintConfig": {
     "extends": "react-app"
