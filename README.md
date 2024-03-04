@@ -24,3 +24,4 @@
 * git commit -m "Your commit message"
 * 最后，执行推送操作：git push -u origin vueVersion1
 * 这样就应该能够成功将 vueVersion1 分支推送到远程仓库了
+* git clone -b vueVersion1 --single-branch https://github.com/stayyoungandsimple/dev_mern.git   # clone vueVersion1分支
