@@ -37,3 +37,4 @@ npm run server
 * git add .
 * git commit -m "initial commit"
 * git push -u origin main
+* git clone -b main --single-branch https://github.com/stayyoungandsimple/dev_mern.git   # clone main分支
